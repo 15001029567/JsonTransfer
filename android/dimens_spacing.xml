@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <dimen name="space_none">0dp</dimen>
+    <dimen name="space_xxs">6dp</dimen>
+    <dimen name="space_xs">8dp</dimen>
+    <dimen name="space_s">12dp</dimen>
+    <dimen name="space_sm">16dp</dimen>
+    <dimen name="space_m">20dp</dimen>
+    <dimen name="space_ml">24dp</dimen>
+    <dimen name="space_l">30dp</dimen>
+    <dimen name="space_xl">32dp</dimen>
+    <dimen name="space_xxl">36dp</dimen>
+    <dimen name="space_xxxl">48dp</dimen>
+    <dimen name="space_l_s">56dp</dimen>
+    <dimen name="space_l_m">64dp</dimen>
+    <dimen name="space_l_l">72dp</dimen>
+    
+</resources>

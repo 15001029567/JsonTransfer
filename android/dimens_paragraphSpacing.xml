@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <dimen name="paragraph_spacing_small">24dp</dimen>
+    <dimen name="paragraph_spacing_regualr">32dp</dimen>
+    <dimen name="paragraph_spacing_large">64dp</dimen>
+    <dimen name="paragraph_spacing_xlarge">80dp</dimen>
+    
+</resources>
