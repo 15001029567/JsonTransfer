@@ -1,15 +1,16 @@
 #! /bin/bash
 
 jsonFolder="/Hozon-UED/"
-jsonFile="/Hozon-UED/tokens.json"
 
-if [ ! -d  " $jsonFolder " ] ; then 
- git clone https://github.com/daisyshi1030/Hozon-UED.git
-fi
+git pull
 
-.$jsonFolder/git pull
+# 初始化本地配置文件
+git submodule init
+ 
+# 检出父仓库列出的commit
+git submodule update
 
-chmod 755 $jsonFolder
+sudo chmod 755 $jsonFolder
 
  
 token-transformer /Hozon-UED/tokens.json /Hozon-UED/token_out.json
