@@ -7,7 +7,7 @@ const _ = require('lodash');
 function getStyleDictionaryConfig() {
     return {
         "source": [
-            "Hozon-UED/**/*.json"
+            "token_out.json"
         ],
         "platforms": {
             "android": {
