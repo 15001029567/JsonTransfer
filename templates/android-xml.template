@@ -3,26 +3,27 @@
 var allProperties = _.each(allProperties, function(prop) {
     // here I am mimicking the pre-defined Android formats that come with Style Dictionary, but using my "custom" categories (declared directly with the value as "type" prop)
     console.log('prop type=' + prop.type + " name=" + prop.name + " value="+ prop.value)
+      prop.unit="";
     if(prop.type === 'color') {
         prop.tag = 'color';
-        prop.unit="";
     } else if(prop.type === 'size' || prop.type === 'sizing' || prop.type ==='spacing'
         || prop.type ==='spacing' || prop.type === 'borderRadius' || prop.type === 'borderWidth'|| prop.type === 'paragraphSpacing') {
         prop.tag = 'dimen';
-        prop.unit="dp";
+   //   if(prop.value.find("p")==string::npos){
+   //           prop.unit="dp";
+     //  }
     }else if(prop.type === 'fontSizes' ) {
      prop.tag = 'dimen';
-     prop.unit="sp";
+ //     if(prop.value.find("sp")==string::npos){
+ //             prop.unit="sp";
+ //    }
     }
      else if(prop.type === 'time' || prop.type === 'opacity' || prop.type === 'multiplier') {
         prop.tag = 'double';
-        prop.unit="";
     } else if(prop.type === 'content'||prop.type === 'fontFamilies') {
         prop.tag = 'string';
-         prop.unit="";
     } else {
         prop.tag = 'item';
-        prop.unit="";
     }
 });
 %>
