@@ -18,7 +18,7 @@
     <color name="button_blue">#15A6AF</color>
     <color name="button_gray_border_light">#DFE4ED</color>
     <color name="button_gray_border_dark">#40444D</color>
-    <color name="button_dialog_light">#EDF1F7</color>
+    <color name="button_dialog_light">#F5F7FA</color>
     <color name="button_dialog_dark">#2B2E33</color>
     <color name="text_white">#ffffff</color>
     <color name="text_balckgray">#0E1218</color>
@@ -27,6 +27,8 @@
     <color name="text_red">#db4046</color>
     <color name="border_secondary_menu_focus_light">#CED4E0</color>
     <color name="border_secondary_menu_focus_dark">#40444D</color>
+    <color name="border_blue_light">#15A6AF</color>
+    <color name="border_blue_dark">#08c6d2</color>
     <color name="line_splitline_light">#0E1218 10%</color>
     <color name="line_splitline_dark">#ffffff 10%</color>
     <color name="line_tab_focus_light">#0E1218</color>
@@ -47,7 +49,7 @@
     <color name="state_dark_white_default_tertiary">#ffffff 60%</color>
     <color name="state_dark_white_press">#ffffff 40%</color>
     <color name="state_dark_white_disabled">#ffffff 20%</color>
-    <color name="background_popup_dark">#15171A</color>
+    <color name="background_popup_dark">#1F2226</color>
     <color name="background_popup_light">#ffffff</color>
     <color name="background_system_dark">#000000</color>
     <color name="background_system_light">#FAFBFC</color>

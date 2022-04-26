@@ -87,7 +87,7 @@
   },
   "margin": {
     "layout": {
-      "value": "8dp",
+      "value": "16dp",
       "description": "Left and right margins",
       "type": "spacing"
     }
@@ -205,31 +205,31 @@
     }
   },
   "secondary_menu_border_focus": {
-    "value": "1dp",
+    "value": "0.4dp",
     "type": "borderWidth"
   },
   "button_border_secondary": {
-    "value": "1dp",
+    "value": "0.4dp",
     "type": "borderWidth"
   },
   "time_selector_splitline": {
-    "value": "1dp",
+    "value": "0.4dp",
     "type": "borderWidth"
   },
   "tab_splitline": {
-    "value": "1dp",
+    "value": "0.4dp",
     "type": "borderWidth"
   },
   "tab_focusline": {
-    "value": "1dp",
+    "value": "0.4dp",
     "type": "borderWidth"
   },
   "inputbox_border": {
-    "value": "1dp",
+    "value": "0.4dp",
     "type": "borderWidth"
   },
   "listitem_splitline": {
-    "value": "1dp",
+    "value": "0.4dp",
     "type": "borderWidth"
   },
   "defult_10": {
@@ -375,7 +375,7 @@
       "type": "color"
     },
     "dialog_light": {
-      "value": "#EDF1F7",
+      "value": "#F5F7FA",
       "type": "color"
     },
     "dialog_dark": {
@@ -412,6 +412,14 @@
     },
     "secondary_menu_focus_dark": {
       "value": "#40444D",
+      "type": "color"
+    },
+    "blue_light": {
+      "value": "#15A6AF",
+      "type": "color"
+    },
+    "blue_dark": {
+      "value": "#08c6d2",
       "type": "color"
     }
   },
@@ -505,7 +513,7 @@
   },
   "background": {
     "popup_dark": {
-      "value": "#15171A",
+      "value": "#1F2226",
       "type": "color"
     },
     "popup_light": {
@@ -535,6 +543,10 @@
   },
   "radius_2": {
     "value": "2dp",
+    "type": "borderRadius"
+  },
+  "radius_3": {
+    "value": "3dp",
     "type": "borderRadius"
   },
   "opacity_10": {
@@ -798,15 +810,15 @@
     "type": "borderWidth"
   },
   "border_thinnest": {
-    "value": "1dp",
+    "value": "0.4dp",
     "type": "borderWidth"
   },
   "border_thin": {
-    "value": "2dp",
+    "value": "1dp",
     "type": "borderWidth"
   },
   "border_medium": {
-    "value": "3dp",
+    "value": "2dp",
     "type": "borderWidth"
   },
   "border_large": {

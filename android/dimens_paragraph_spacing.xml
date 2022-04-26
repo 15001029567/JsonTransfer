@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <dimen name="paragraph_spacing_small">8</dimen>
+    <dimen name="paragraph_spacing_regualr">11</dimen>
+    <dimen name="paragraph_spacing_large">21</dimen>
+    <dimen name="paragraph_spacing_xlarge">27</dimen>
+    
+</resources>

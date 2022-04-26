@@ -37,38 +37,39 @@ function getStyleDictionaryConfig() {
                             "type": "fontSizes"
                         }
                     },
-                    // {
-                    //     "destination": "tokens_font_size.xml",
-                    //     "format": "android/xml",
-                    //     "filter":{
-                    //         "type": "fontSizes",
-                    //     }
-                    // },
-                    // {
-                    //     "destination": "tokens_font_size.xml",
-                    //     "format": "android/xml",
-                    //     "filter":{
-                    //         "type": "fontSizes",
-                    //     }
-                    // },
-                    // {
-                    //     "destination": "tokens_font_size.xml",
-                    //     "format": "android/xml",
-                    //     "filter":{
-                    //         "type": "fontSizes",
-                    //     }
-                    // },{
-                    //     "destination": "tokens_font_size.xml",
-                    //     "format": "android/xml",
-                    //     "filter":{
-                    //         "type": "fontSizes",
-                    //     }
-                    // }
-                    // ,
-                    // {
-                    //     "destination": "tokens_all.xml",
-                    //     "format": "android/xml"
-                    // }
+                     {
+                         "destination": "dimens_border_radius.xml",
+                         "format": "android/xml",
+                         "filter":{
+                             "type": "borderRadius",
+                         }
+                     },
+                     {
+                         "destination": "dimens_spacing.xml",
+                         "format": "android/xml",
+                         "filter":{
+                             "type": "spacing",
+                         }
+                     },
+                     {
+                         "destination": "dimens_border_width.xml",
+                         "format": "android/xml",
+                         "filter":{
+                             "type": "borderWidth",
+                         }
+                     },
+                     {
+                         "destination": "dimens_paragraph_spacing.xml",
+                         "format": "android/xml",
+                         "filter":{
+                             "type": "paragraphSpacing",
+                         }
+                     }
+                     ,
+                     {
+                         "destination": "tokens_all.xml",
+                         "format": "android/xml"
+                     }
                 ]
             }
         }
