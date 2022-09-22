@@ -14,5 +14,8 @@
     "chokidar-cli": "^3.0.0",
     "handlebars": "^4.0.11",
     "style-dictionary": "^3"
+  },
+  "dependencies": {
+    "n": "^9.0.0"
   }
 }

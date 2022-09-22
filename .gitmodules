@@ -2,3 +2,7 @@
 	path = Hozon-UED
 	url = https://github.com/daisyshi1030/Hozon-UED.git
 	branch = main
+[submodule "Hozon_Tokens"]
+	path = Hozon_Tokens
+	url = https://github.com/daisyshi1030/Hozon_platform_tokens.git
+	branch = main
